@@ -1,0 +1,134 @@
+.bgcontainer {
+	width: 800px;
+		height: 700px;
+		margin: auto; 
+		background: #e1b785;
+}
+div[shape="Rounded_Rectangle_1"] {
+    width: 441px;
+    height: 41px;
+    background-color: rgb(75, 28, 20);
+    position: relative;
+    top: 97px;
+    margin: auto;
+    border-radius: 50px;
+}
+div[shape="Rounded_Rectangle_1"]::before {
+    width: 233px;
+    height: 41px;
+    background-color: rgb(125, 47, 34);
+    position: absolute;
+    content: "";
+    top: 0px;
+    margin: auto;
+    border-radius: 50px 0px 0px 50px;
+}
+div[shape="Rounded_Rectangle_1"]::after {
+	width: 210px;
+    height: 368px;
+    background-color: rgb(255, 147, 56);
+    position: absolute;
+    content: "";
+    top: 41px;
+    left: 23px;
+    margin: auto;
+}
+div[shape="Rounded_Rectangle_2"] {
+    width: 210px;
+    height: 66px;
+    background-color: rgb(255, 147, 56);
+    position: relative;
+    top: 41px;
+    left: 88px;
+    margin: auto;
+}
+div[shape="Rounded_Rectangle_2"]::before {
+    width: 99px;
+    height: 29px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    content: "";
+    top: 66px;
+    left: 75px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+div[shape="Rounded_Rectangle_2"]::after {
+	width: 16px;
+    height: 32px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    content: "";
+    top: 85px;
+    left: 116px;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+div[shape="Rounded_Rectangle_3"] {
+    width: 99px;
+    height: 68px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 278px;
+    left: 107px;
+    margin: auto;
+    border-radius: 0px 0px 40px 40px;
+}
+div[shape="Rounded_Rectangle_3"]::before {
+     width: 48px;
+    height: 68px;
+    background-color: rgb(210, 211, 213);
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 53px;
+    margin: auto;
+    border-radius: 0px 0px 40px 0px;
+    z-index: 4;
+}
+div[shape="Rounded_Rectangle_3"]::after {
+	width: 22px;
+    height: 22px;
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 90px;
+    margin: auto;
+    border-radius: 0px 40px 40px 0px;
+    border-top: 8px solid #fff;
+    border-bottom: 8px solid #fff;
+    border-right: 8px solid #fff;
+}
+
+div[shape="Rounded_Rectangle_4"] {
+    width: 441px;
+    height: 107px;
+    background-color: rgb(194, 66, 37);
+    position: relative;
+    top: 275px;
+    left: 23px;
+    margin: auto;
+    border-radius: 0px 0px 50px;
+    z-index: 5;
+}
+div[shape="Rounded_Rectangle_4"]::before {
+    width: 193px;
+    height: 23px;
+    background-color: rgb(75, 28, 20);
+    position: absolute;
+    content: "";
+    top: 107px;
+    left: 200px;
+    margin: auto;
+}
+div[shape="Rounded_Rectangle_4"]::after {
+	width: 177px;
+    height: 23px;
+    background-color: rgb(125, 47, 34);
+    position: absolute;
+    content: "";
+    top: 107px;
+    left: 24px;
+    margin: auto;
+
+}
